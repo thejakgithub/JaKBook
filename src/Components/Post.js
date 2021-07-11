@@ -12,7 +12,7 @@ function Post({ id, title, deletePost, editPost }) {
                         <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
                     </svg>
                 </div>
-                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">d
+                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                     <li><a className="dropdown-item" onClick={() => editPost(id)} ><i className="bi bi-pencil"></i> Edit</a></li>
                     <li><a className="dropdown-item" onClick={() => deletePost(id)}><i className="bi bi-trash"></i> Delete</a></li>
                 </ul>

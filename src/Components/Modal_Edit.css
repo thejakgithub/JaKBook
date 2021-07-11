@@ -1,0 +1,20 @@
+.bi-x-lg{
+    cursor: pointer;
+    color:rgb(102, 101, 101);
+    padding: 7px;
+    font-size: 20px;
+
+}
+.bi-x-lg:hover{
+    background-color: rgb(243, 243, 243);
+    border-radius: 100%;
+}
+
+.edit-input{
+    border: none;
+    width: 100%;
+}
+
+.edit-input{
+    outline: none;
+}

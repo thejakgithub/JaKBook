@@ -1,0 +1,74 @@
+.Post{
+    border: 1px solid hsl(216, 8%, 88%);
+    border-radius: 10px;
+    max-width: 593px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+
+  
+
+.Post__title{
+  margin-left: 10px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.Post__image{
+  width: 100%;
+  max-height:35rem;
+
+}
+
+.Post__delete{
+  border:none;
+  background: none;
+
+  padding: 0;
+  float: right;
+  cursor: pointer;
+}
+
+.Post__edit{
+  border:none;
+  background: none;
+  padding: 0;
+  float: right;
+  cursor: pointer;
+}
+
+.Post__popup{
+  
+  margin: 10px;
+  float: RIGHT;
+  cursor: pointer;
+  padding: 7px;
+  color:rgb(102, 101, 101);
+  
+}
+
+.Post__popup:hover{
+  background-color: rgb(243, 243, 243);
+  border-radius: 100%;
+}
+
+.dropdown-menu {
+  font-size: 15px;
+  min-width: 50px !important;
+ 
+}
+.dropdown div:active {
+  
+  background-color: rgba(220, 220, 220, 0.61);
+}
+
+.dropdown-menu a:active{
+  background-color: rgba(220, 220, 220, 0.781);
+  color:black;
+}
+.dropdown-menu a:visited{
+
+  background-color: rgba(220, 220, 220, 0.781);
+  color: black;
+}
